@@ -32,7 +32,7 @@ Como broche final, publicamos nuestro proyecto en `GITHUB PAGES` para poder comp
 
 [CSS media queries](https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries)
 
-[Font Awesome] (https://fontawesome.com/v5.15/how-to-use/customizing-wordpress/snippets/setup-cdn-webfont)
+[Font Awesome](https://fontawesome.com/v5.15/how-to-use/customizing-wordpress/snippets/setup-cdn-webfont)
 
 [Google fonts](https://fonts.google.com/)
 
