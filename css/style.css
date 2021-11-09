@@ -42,17 +42,23 @@ footer {
     margin-top: 40px;
 }
 
-.custom-section {
-    padding-top: 50px;
-}
-
-.cb {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.contact, .projects, .about {
+    margin-top: 2em;
 }
 
 .card-text {
     font-family: 'Mohave', sans-serif;
 }
+
+.link-custom {
+    text-decoration: none;
+    color: #000000;
+}
+
+.divider {
+    height: 4px;
+    width: 60px;
+    background-color: aqua;
+    margin-top: 5px;
+    margin-bottom: 2em;
+  }
