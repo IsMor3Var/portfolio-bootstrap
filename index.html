@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mohave:wght@300&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Portfolio @MorenoLuis</title>
 </head>
 <body>
@@ -45,12 +46,20 @@
         <h1>I`m Luis Moreno</h1>
       </div>
 
-      <section class="container custom-section">
+      <!-- <section class="container custom-section">
         <div class="row">
-          <div class="col-md">
+          <div class="col-md" 
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             <img src="./img/cardImageLeft.jpg" class="img-fluid" alt="ImageLeft">
           </div>
-          <div class="cb col-md">
+          <div class="cb col-md" 
+            data-aos="zoom-in"
+            data-aos-offset="500"
+            data-aos-duration="500"
+          >
             <p class="card-text">Lorem ipsum dolor sit amet consectetur, 
               adipisicing elit. Sapiente, recusandae quasi 
               praesentium assumenda similique fuga, 
@@ -63,26 +72,42 @@
 
       <section class="container custom-section">
         <div class="row">
-          <div class="col-md">
+          <div class="cb col-md" 
+            data-aos="zoom-in"
+            data-aos-offset="500"
+            data-aos-easing="ease-in-sine"
+          >
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, 
+              adipisicing elit. Sapiente, recusandae quasi 
+              praesentium assumenda similique fuga, 
+              rerum accusantium expedita sequi magni numquam 
+              repudiandae nostrum nihil.
+              Facere error harum magni quidem pariatur!</p>  
+          </div>
+          <div class="col-md" 
+            data-aos="zoom-out"
+            data-aos-offset="500"
+            data-aos-duration="500"
+          >
             <img src="./img/cardImageCenter.jpg" class="img-fluid" alt="ImageCenter">
           </div>
-          <div class="cb col-md">
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur, 
-              adipisicing elit. Sapiente, recusandae quasi 
-              praesentium assumenda similique fuga, 
-              rerum accusantium expedita sequi magni numquam 
-              repudiandae nostrum nihil.
-              Facere error harum magni quidem pariatur!</p>  
-          </div>
         </div>
       </section>
 
       <section class="container custom-section">
         <div class="row">
-          <div class="col-md">
+          <div class="col-md" 
+            data-aos="fade-right"
+            data-aos-offset="500"
+            data-aos-easing="ease-in-sine"
+          >
             <img src="./img/cardImageRight.jpg" class="img-fluid" alt="ImageRight">
           </div>
-          <div class="cb col-md">
+          <div class="cb col-md" 
+            data-aos="zoom-in"
+            data-aos-offset="500"
+            data-aos-duration="500"
+          >
             <p class="card-text">Lorem ipsum dolor sit amet consectetur, 
               adipisicing elit. Sapiente, recusandae quasi 
               praesentium assumenda similique fuga, 
@@ -91,15 +116,103 @@
               Facere error harum magni quidem pariatur!</p>  
           </div>
         </div>
-      </section>
+      </section> -->
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card mb-3" style="max-width: 540px;"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./img/cardImageLeft.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-3" style="max-width: 540px;"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./img/cardImageLeft.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-3" style="max-width: 540px;"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./img/cardImageLeft.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-3" style="max-width: 540px;"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./img/cardImageLeft.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <footer>
-        <div class="container">
-            <p>
-                &copy; 2021 Luis.Moreno
+        <div class="container card-footer">
+            <p class="text-center">
+                &copy; 2021 Luis Moreno
             </p>
         </div>
       </footer>
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </html>
