@@ -28,6 +28,7 @@ body {
     width: 80%;
     padding: 20px;
     text-align: center;
+    font-family: 'Roboto Slab', serif;
 }
 
 .home {
@@ -39,4 +40,19 @@ footer {
     padding: 20px 0;
     color: var(--main-color);
     margin-top: 40px;
+}
+
+.custom-section {
+    padding-top: 50px;
+}
+
+.cb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-text {
+    font-family: 'Mohave', sans-serif;
 }
